@@ -50,8 +50,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png | jpe?g | gif | webp)$/,
-        use: 'file-loader'
+        test: /\.(png|jpe?g|gif|webp)$/,
+        use: ['file-loader']
       }
     ]
   },
